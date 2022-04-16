@@ -1,0 +1,37 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/index.css">
+    <link rel="stylesheet" href="~/css/header.css">
+    <link rel="stylesheet" href="~/css/footer.css">
+    <title>HOME</title>
+</head>
+<body>
+
+    <div class="content"> 
+        <div class="col">
+            <a asp-controller="Food" asp-action="pizza" class="zoom"> <img src="../POZE/pozaMeniuPizza.jpg" id="pozaMeniuPizza" > </a>
+        </div>
+        <div class="col">
+            <div>
+            <a asp-controller="Food" asp-action="paste" class="zoom"><img src="../POZE/pozaMeniuPaste.jpg" id="pozeDreapta" > </a> 
+            </div>
+            <div>
+            <a asp-controller="Food" asp-action="desert" class="zoom"><img src="../POZE/pozaMeniuDesert.jpg" id="pozeDreapta"> </a>
+            </div>
+        </div>
+     </div>
+
+     <div class="pozaHome">
+         <img src="../POZE/pozaHome.jpg">
+     </div>
+
+</body>
+</html>

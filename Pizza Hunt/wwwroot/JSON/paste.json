@@ -1,0 +1,28 @@
+[   {
+    "name": "Paste Bolognese",
+    "ingredients": ["mozzarella", "sos", "carne tocata"],
+    "imageLink": "/PozePaste/bolognese.jpg",
+    "price": "28 lei"
+  },
+
+  {
+    "name": "Paste Carbonara",
+    "ingredients": ["mozzarella", "parmezan", "ou", "smanta", "bacon"],
+    "imageLink": "/PozePaste/carbonara.jpg",
+    "price": "28 lei"
+  },
+  
+  {
+    "name": "Paste Milaneze",
+    "ingredients": ["mozzarella", "sos", "sunca", "bacon", "ciuperci"],
+    "imageLink": "/PozePaste/milaneze.jpg",
+    "price": "28 lei"
+  },
+
+  {
+    "name": "Paste Siciliene",
+    "ingredients": ["mozzarella", "sos alb", "pui", "usturoi", "gorgonzola", "telemea", "parmezan"],
+    "imageLink": "/PozePaste/siciliene.jpg",
+    "price": "28 lei"
+  }
+]

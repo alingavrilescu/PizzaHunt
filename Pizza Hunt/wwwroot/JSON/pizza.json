@@ -1,0 +1,32 @@
+[   {
+    "name": "Pizza Margherita",
+    "ingredients": ["mozzarella", "sos rosii"],
+    "imageLink": "/PozePizza/margherita.jpg",
+    "price": ["23 lei", "35 lei", "59 lei"],
+    "dimension":["32cm", "40cm", "Party"]
+  },
+
+  {
+    "name": "Pizza Prosciutto & Funghi",
+    "ingredients": ["mozzarella", "sos rosii", "sunca", "ciuperci"],
+    "imageLink": "/PozePizza/prosciutoFunghi.jpg",
+    "price": ["25 lei", "40 lei", "71 lei"],
+    "dimension":["32cm", "40cm", "Party"]
+  },
+  
+  {
+    "name": "Pizza Diavola",
+    "ingredients": ["mozzarella", "sos rosii", "ardei iute", "porumb", "bacon", "rosii", "salam"],
+    "imageLink": "/PozePizza/diavola.jpg",
+    "price": ["27 lei", "43 lei", "74 lei"],
+    "dimension":["32cm", "40cm", "Party"]
+  },
+
+  {
+    "name": "Pizza BBQ",
+    "ingredients": ["mozzarella", "sos rosii", "bacon", "ciuperci", "pui"],
+    "imageLink": "/PozePizza/BBQ.jpg",
+    "price": ["27 lei", "43 lei", "74 lei"],
+    "dimension":["32cm", "40cm", "Party"]
+  }
+]

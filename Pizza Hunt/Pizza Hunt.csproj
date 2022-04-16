@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Pizza_Hunt</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\PozeDesert\capsuni.jpg" />
+    <None Include="wwwroot\PozeDesert\ciocolata.jpg" />
+    <None Include="wwwroot\PozeDesert\dulceata.jpg" />
+    <None Include="wwwroot\PozeDesert\papanasi.jpg" />
+    <None Include="wwwroot\PozePaste\bolognese.jpg" />
+    <None Include="wwwroot\PozePaste\carbonara.jpg" />
+    <None Include="wwwroot\PozePaste\milaneze.jpg" />
+    <None Include="wwwroot\PozePaste\siciliene.jpg" />
+    <None Include="wwwroot\PozePizza\BBQ.jpg" />
+    <None Include="wwwroot\PozePizza\diavola.jpg" />
+    <None Include="wwwroot\PozePizza\margherita.jpg" />
+    <None Include="wwwroot\PozePizza\prosciutoFunghi.jpg" />
+    <None Include="wwwroot\PozeRacoritoare\Cola.jpg" />
+    <None Include="wwwroot\PozeRacoritoare\Fanta.jpg" />
+    <None Include="wwwroot\PozeRacoritoare\Pepsi.jpg" />
+    <None Include="wwwroot\PozeRacoritoare\Sprite.jpg" />
+    <None Include="wwwroot\POZE\backgroundLogIn.jpg" />
+    <None Include="wwwroot\POZE\backgroundSignUp.png" />
+    <None Include="wwwroot\POZE\pizzalogo.png" />
+    <None Include="wwwroot\POZE\pizzalogoLogIn.png" />
+    <None Include="wwwroot\POZE\pozaHome.jpg" />
+    <None Include="wwwroot\POZE\pozaMeniuDesert.jpg" />
+    <None Include="wwwroot\POZE\pozaMeniuPaste.jpg" />
+    <None Include="wwwroot\POZE\pozaMeniuPizza.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+  </ItemGroup>
+
+</Project>

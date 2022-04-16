@@ -1,0 +1,96 @@
+﻿body {
+    overflow-x: hidden;
+}
+
+.border-cards {
+    padding: 100px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(170px, 1fr));
+    margin-left: 120px;
+}
+
+.card {
+    border-radius: 1rem;
+    padding: .5rem;
+    height: 520px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+    .card p, td {
+        font-weight: 1000;
+    }
+
+    .card img {
+        border-radius: 1rem;
+        height: 340px;
+        width: 500px;
+    }
+
+.cardButton {
+    border-radius: 0.5rem;
+    width: 30px;
+    height: 30px;
+    background-color: #ffe400;
+}
+
+.input1 {
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 35px;
+    text-indent: 10px;
+}
+
+.input2 {
+    border-radius: 0.5rem;
+    width: 100px;
+    height: 35px;
+    background-color: #ffe400;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+    .search input:focus {
+        outline: none;
+        border-color: #ffe400;
+    }
+
+    .search input:hover {
+        border: 2px solid #ffe400;
+    }
+
+    .search button {
+        border: 2px solid #ffe400;
+    }
+
+    .search button:focus {
+        border: 2px solid black;
+    }
+    .search button:hover {
+        border: 2px solid black;
+    }
+
+.insertBtn{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.insertBtn button{
+    border-radius: 0.5rem;
+    width: 250px;
+    height: 30px;
+    background-color: #ffe400;
+}

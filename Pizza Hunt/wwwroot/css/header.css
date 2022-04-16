@@ -1,0 +1,82 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.baraSusHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 10%;
+    background-color: rgb(70, 64, 64);
+    width: 100%;
+    height: 100px;
+}
+
+#pizzalogo {
+    width: 250px;
+    height: 175px;
+}
+
+.LoginBtn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+    .LoginBtn li {
+        vertical-align: middle;
+        margin: 0 10px;
+    }
+
+        .LoginBtn li:hover {
+            opacity: 0.7;
+        }
+
+        .LoginBtn li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            font-weight: 600;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+.meniuHeader {
+    display: flex;
+    justify-content: center;
+    background-color: #ffe400;
+    width: 80%;
+    height: 75px;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 1rem;
+}
+
+.header-meniu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.header-meniu li {
+    margin: 0 10px;
+    vertical-align: central;
+}
+
+.header-meniu li a {
+    text-decoration: none;
+    color: rgb(65, 45, 15);
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+.header-meniu li a:hover {
+    opacity: 0.5;
+}

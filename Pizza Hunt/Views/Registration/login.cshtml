@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <a asp-controller="Home" asp-action="Index" ><img src="../POZE/pizzalogoLogIn.png" id="logoLogIn"></a>
+        <div class="LogIn">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br>
+            <div class="center">
+                <button class="btn">
+                <svg width="100px" height="40px" viewBox="0 0 100 40" class="border">
+                    <polyline points="99,1 99,39 1,39 1,1 99,1" class="bg-line" />
+                    <polyline points="99,1 99,39 1,39 1,1 99,1" class="hl-line" />
+                </svg>
+                <span>Log in</span>
+                </button>
+            </div>
+            <h4>Need an account? <a asp-controller="Registration" asp-action="signup" >Sign up</a></h4>
+        </div>   
+    </div>
+</body>
+</html>

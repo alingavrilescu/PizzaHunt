@@ -1,0 +1,24 @@
+[   {
+    "name": "Coca Cola",
+    "imageLink": "/PozeRacoritoare/Cola.jpg",
+    "price": "5 lei"
+  },
+
+  {
+    "name": "Pepsi",
+    "imageLink": "/PozeRacoritoare/Pepsi.jpg",
+    "price": "5 lei"
+  },
+  
+  {
+    "name": "Sprite",
+    "imageLink": "/PozeRacoritoare/Sprite.jpg",
+    "price": "5 lei"
+  },
+
+  {
+    "name": "Fanta",
+    "imageLink": "/PozeRacoritoare/Fanta.jpg",
+    "price": "5 lei"
+  }
+]

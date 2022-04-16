@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+@*    <meta name="viewport" content="width=device-width, initial-scale=1.0" />*@
+    <title>@ViewData["Title"] - Pizza_Hunt</title>
+    <link rel="stylesheet" href="~/Pizza_Hunt.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/header.css">
+    <link rel="stylesheet" href="~/css/footer.css">
+</head>
+<body>
+    <header>
+        <div class="baraSusHeader">
+            <p> </p>
+            <a asp-controller="Home" asp-action="Index" > <img src="~/POZE/pizzalogo.png" id="pizzalogo"></a>
+                <ul class="LoginBtn">
+                    <li><a asp-controller="Registration" asp-action="login" >Log in </a></li>
+                    <li><a asp-controller="Registration" asp-action="signup" >Sign up </a></li>
+                </ul>
+        </div>
+        <div class="meniuHeader">
+            <ul class = "header-meniu">
+                <li><a asp-controller="Food" asp-action="pizza">Pizza</a></li>
+                <li><a asp-controller="Food" asp-action="paste">Paste</a></li>
+                <li><a asp-controller="Food" asp-action="desert">Desert</a></li>
+                <li><a asp-controller="Food" asp-action="racoritoare">Racoritoare</a></li>
+            </ul> 
+        </div>
+    </header>
+
+    @RenderBody()
+
+     <footer class="footer">
+         <table>
+             <tr>
+                 <td>
+                    <ul>
+                        <li>Mail:</li>
+                        <li>huntpizza@pizza.com</li>
+                        <li>Phone number:</li>
+                        <li>0733.40.44.05 | 0757.90.30.40 </li>
+                        <li>Address:</li>
+                        <li>Craiova, Str. Imparatul Traian, Nr. 164</li>
+                    </ul>
+                 </td>
+                 <td>
+                     <ul>
+                        <li>Program:</li>
+                        <li>Luni - Sambata: 10:00 - 01:00</li>
+                        <li>Duminica: 12:00 - 00:00</li>
+                     </ul>
+                 </td>
+             </tr>
+             
+         </table>
+     </footer>
+    @*<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>*@
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

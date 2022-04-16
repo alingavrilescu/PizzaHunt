@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap'); 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../POZE/backgroundLogIn.jpg") no-repeat;
+    height: 100vh;
+}
+
+.LogIn{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 200px;
+    margin-top: 300px;
+    border-radius: 1rem;
+}
+
+.LogIn label{
+    font-size: larger;
+    color: #ffe400;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.LogIn h4{
+    padding-top: 50px;
+}
+
+.LogIn a{
+    text-decoration: none;
+    color: #ffe400;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.LogIn input{
+    border-radius: 0.5rem;
+    width: 200px;
+    height: 35px;
+    text-indent: 10px;
+}
+
+.LogIn input:focus{
+  outline: none;
+  border-color:#ffe400;
+}
+
+.LogIn input:hover{
+    border:2px solid #ffe400 ;
+}
+
+#logoLogIn{
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 125px;
+    width: 200px;
+    border-radius: 1rem;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+  
+  .center {
+    width: 100px;
+    height: 40px;
+    position: relative;
+  }
+  
+  .btn {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #ffe400;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 2s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 0.5s ease-in-out;
+    background: #ffe400;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 800;
+  }

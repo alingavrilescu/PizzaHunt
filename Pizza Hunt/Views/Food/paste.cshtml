@@ -1,0 +1,47 @@
+﻿@model IEnumerable<pasta> 
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="search">
+            @using(Html.BeginForm())
+    {
+        <input name="search" type="text" placeholder="search here" class="input1" autocomplete="off">
+        @*<input type="submit" value="Search" class="input2">*@
+        <button type="submit" class="input2"><i class="fa fa-search"></i></button>
+    }
+    </div>
+
+    <div class="insertBtn">
+        <a asp-action="pasteInsert"><button>Insert Paste</button></a> 
+    </div>
+
+    <div class="border-cards">
+        @foreach(var obj in Model)
+        {
+        <div class="card">
+                <img src="@obj.img_url">
+                <div>
+                    <p>@obj.name</p>
+                    <p>Ingrediente: @obj.ingredients</p>
+                    <p>Valoare energetica: @obj.kcal kcal</p>
+                    <a onclick="return confirm('Are you sure you want to delete: @obj.name ?')" asp-action="pasteDelete" asp-route-id="@obj.pastaId"><button  class="cardButton"><i class="fa fa-trash"></i></button></a>
+                    <a asp-action="pasteEdit" asp-route-id="@obj.pastaId"><button  class="cardButton"><i class="fa fa-edit"></i></button></a>
+                </div>
+        </div>
+        }
+    </div>
+
+</body>
+</html>

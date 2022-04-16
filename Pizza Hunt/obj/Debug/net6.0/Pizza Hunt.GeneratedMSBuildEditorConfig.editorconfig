@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Pizza_Hunt
+build_property.RootNamespace = Pizza_Hunt
+build_property.ProjectDir = E:\Visual Studio\WAD project\Pizza Hunt\Pizza Hunt\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Visual Studio\WAD project\Pizza Hunt\Pizza Hunt
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/desert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxkZXNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/desertEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxkZXNlcnRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/desertInsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxkZXNlcnRJbnNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/paste.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxwYXN0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/pasteEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxwYXN0ZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/pasteInsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxwYXN0ZUluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/pizza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxwaXp6YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/pizzaEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxwaXp6YUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/pizzaInsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxwaXp6YUluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/racoritoare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxyYWNvcml0b2FyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/racoritoareEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxyYWNvcml0b2FyZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Food/racoritoareInsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxyYWNvcml0b2FyZUluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Registration/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXGxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Registration/signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXHNpZ251cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Visual Studio/WAD project/Pizza Hunt/Pizza Hunt/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
